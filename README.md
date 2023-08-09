@@ -19,3 +19,6 @@ deep learning book
 
 other study 
 - [ML youtube course](https://github.com/dair-ai/ML-YouTube-Courses)
+
+# scrap
+- [수학자는 어떻게 인공지능을 발전시키는가?](https://brunch.co.kr/@kakao-it/244)
