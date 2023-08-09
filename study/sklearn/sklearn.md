@@ -3,3 +3,4 @@
 - [classification_iris](https://github.com/rbdus0715/kaggle/blob/main/study/sklearn/classification_iris.ipynb)
 - [cross_validation](https://github.com/rbdus0715/kaggle/blob/main/study/sklearn/cross_validation.ipynb)
 - [data preprocessing](https://github.com/rbdus0715/kaggle/blob/main/study/sklearn/data_preprocessing.ipynb)
+- [titanic_with DecisionTreeClassifier](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/titanic_sklearn.ipynb)
