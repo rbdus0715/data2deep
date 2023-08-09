@@ -2,6 +2,10 @@
 - [solutions](https://farid.one/kaggle-solutions/)
 
 # deep learning
+base 
+- [bishop book](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) 
+- [murpy book](http://noiselab.ucsd.edu/ECE228/Murphy_Machine_Learning.pdf)
+
 deep learning
 - [implement1](https://github.com/bharathgs/Awesome-pytorch-list)
 - [implement2](https://github.com/labmlai/annotated_deep_learning_paper_implementations)
