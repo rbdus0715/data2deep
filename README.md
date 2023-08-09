@@ -1,9 +1,17 @@
 # kaggle
-kaggle study and solutions (7/23~)
+- [solutions](https://farid.one/kaggle-solutions/)
 
-[solutions](https://farid.one/kaggle-solutions/)
-
+# deep learning
 deep learning
 - [implement1](https://github.com/bharathgs/Awesome-pytorch-list)
 - [implement2](https://github.com/labmlai/annotated_deep_learning_paper_implementations)
 - [Implementing math in deep learning papers into efficient PyTorch code](https://towardsdatascience.com/implementing-math-in-deep-learning-papers-into-efficient-pytorch-code-simclr-contrastive-loss-be94e1f63473)
+- [deep learning paper reading youtube](https://www.youtube.com/channel/UCDULrK2OJsiDhFroa2Aj_LQ)
+- [math for Machine-Learning](https://mml-book.github.io/book/mml-book.pdf)
+
+deep learning book
+- [Ian Goodfellow et. al. <Deep Learning>](https://www.deeplearningbook.org/)
+- [Dive into Deep Learning](https://d2l.ai/)
+
+other study 
+- [ML youtube course](https://github.com/dair-ai/ML-YouTube-Courses)
