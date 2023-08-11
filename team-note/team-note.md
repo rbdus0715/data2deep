@@ -4,4 +4,4 @@
 
 
 ## 평가
-- [evaluation.py](https://github.com/rbdus0715/Machine-Learning/blob/main/team-note/evaluation.py)
+- 이진분류 문제에서 평가 : [evaluation.py](https://github.com/rbdus0715/Machine-Learning/blob/main/team-note/evaluation.py)
