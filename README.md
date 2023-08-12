@@ -24,5 +24,8 @@ deep learning book
 other study 
 - [ML youtube course](https://github.com/dair-ai/ML-YouTube-Courses)
 
+# math
+- [선형대수학](https://ko.khanacademy.org/math/linear-algebra)
+
 # scrap
 - [수학자는 어떻게 인공지능을 발전시키는가?](https://brunch.co.kr/@kakao-it/244)
