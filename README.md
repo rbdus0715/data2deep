@@ -2,7 +2,8 @@
 - [solutions](https://farid.one/kaggle-solutions/)
 
 # deep learning
-base 
+books 
+- [islr](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
 - [bishop book](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
   - [solution](https://tensorflowkorea.files.wordpress.com/2018/11/prml-web-sol-2009-09-08.pdf)
   - [errata](https://tensorflowkorea.files.wordpress.com/2018/11/prml-errata-1st-20110921.pdf)
