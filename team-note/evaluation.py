@@ -1,4 +1,9 @@
 from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
+from sklearn.preprocessing import Binarizer
+from sklearn.metrics import precision_recall_curve
+import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
+
 
 def get_clf_eval(y_test, pred=None, pred_proba=None):
     confusion = confusion_matrix(y_test, pred)
@@ -12,9 +17,6 @@ def get_clf_eval(y_test, pred=None, pred_proba=None):
     print('정확도: {0:.4f}, 정밀도: {1:.4f}, 재현율: {2:.4f}, F1: {3:.4f}, AUC: {4:.4f}\n'.format(accuracy, precision, recall, f1, roc_auc))
 
 
-
-from sklearn.preprocessing import Binarizer
-
 def get_eval_by_threshold(y_test, pred_proba_positive, thresholds):
 
     '''
@@ -26,11 +28,7 @@ def get_eval_by_threshold(y_test, pred_proba_positive, thresholds):
         custom_predict = binarizer.transform(pred_proba_positive)
         print('임계값 : ', custom_threshold)
         get_clf_eval(y_test, custom_predict)
-        
 
-from sklearn.metrics import precision_recall_curve
-import matplotlib.pyplot as plt
-import matplotlib.ticker as ticker
 
 def precision_recall_curve_plot(y_test, pred_proba_positive):
 
