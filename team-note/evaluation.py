@@ -17,6 +17,19 @@ def get_clf_eval(y_test, pred=None, pred_proba=None):
     print('정확도: {0:.4f}, 정밀도: {1:.4f}, 재현율: {2:.4f}, F1: {3:.4f}, AUC: {4:.4f}\n'.format(accuracy, precision, recall, f1, roc_auc))
 
 
+
+# get_eval_by_threshold를 위한 get_clf_eval 함수
+def get_clf_eval(y_test, pred):
+    confusion = confusion_matrix(y_test, pred)
+    accuracy = accuracy_score(y_test, pred)
+    precision = precision_score(y_test, pred)
+    recall = recall_score(y_test, pred)
+    print('오차 행렬')
+    print(confusion)
+    print(accuracy, precision, recall)
+
+
+
 def get_eval_by_threshold(y_test, pred_proba_positive, thresholds):
 
     '''
