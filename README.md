@@ -4,7 +4,8 @@
 # deep learning
 base 
 - [bishop book](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
-  - [korean ver.](https://t1.daumcdn.net/cfile/tistory/99F954375B972B2634?original)
+  - [solution](https://tensorflowkorea.files.wordpress.com/2018/11/prml-web-sol-2009-09-08.pdf)
+  - [errata](https://tensorflowkorea.files.wordpress.com/2018/11/prml-errata-1st-20110921.pdf)
 - [murpy book](http://noiselab.ucsd.edu/ECE228/Murphy_Machine_Learning.pdf)
 
 deep learning
