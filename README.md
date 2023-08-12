@@ -3,7 +3,8 @@
 
 # deep learning
 base 
-- [bishop book](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) 
+- [bishop book](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
+  - [korean ver.](https://t1.daumcdn.net/cfile/tistory/99F954375B972B2634?original)
 - [murpy book](http://noiselab.ucsd.edu/ECE228/Murphy_Machine_Learning.pdf)
 
 deep learning
