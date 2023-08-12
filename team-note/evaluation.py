@@ -20,7 +20,9 @@ def get_clf_eval(y_test, pred=None, pred_proba=None):
 def get_eval_by_threshold(y_test, pred_proba_positive, thresholds):
 
     '''
-    사용 예시) get_eval_by_threshold(y_test, pred_proba[:,1].reshape(-1, 1), thresholds)
+    사용 예시) 
+    thresholds = [0.1, 0.5, 0.6] # threshold 값들은 (0, 1) 범위 내
+    get_eval_by_threshold(y_test, pred_proba[:,1].reshape(-1, 1), thresholds)
     '''
     
     for custom_threshold in thresholds:
