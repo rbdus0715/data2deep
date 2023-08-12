@@ -12,6 +12,22 @@ def get_clf_eval(y_test, pred=None, pred_proba=None):
     print('정확도: {0:.4f}, 정밀도: {1:.4f}, 재현율: {2:.4f}, F1: {3:.4f}, AUC: {4:.4f}\n'.format(accuracy, precision, recall, f1, roc_auc))
 
 
+
+from sklearn.preprocessing import Binarizer
+
+def get_eval_by_threshold(y_test, pred_proba_positive, thresholds):
+
+    '''
+    사용 예시) get_eval_by_threshold(y_test, pred_proba[:,1].reshape(-1, 1), thresholds)
+    '''
+    
+    for custom_threshold in thresholds:
+        binarizer = Binarizer(threshold=custom_threshold).fit(pred_proba_positive)
+        custom_predict = binarizer.transform(pred_proba_positive)
+        print('임계값 : ', custom_threshold)
+        get_clf_eval(y_test, custom_predict)
+        
+
 from sklearn.metrics import precision_recall_curve
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
