@@ -11,7 +11,7 @@
 ## 머신러닝 기법
 - 분류
   - [결정 트리](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/decision_tree.ipynb)
-  - [앙상블 기법](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/ensemble_learning.ipynb)
+  - [앙상블 기법 - 보팅방식](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/ensemble_learning.ipynb)
 - [회귀]()
 - [차원축소]()
 - [군집화]()
