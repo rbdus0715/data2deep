@@ -9,7 +9,8 @@
 - [evaluation](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/evaluation.ipynb)
 
 ## 머신러닝 기법
-- [분류]()
+- 분류
+  - [결정 트리](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/decision_tree.ipynb)
 - [회귀]()
 - [차원축소]()
 - [군집화]()
