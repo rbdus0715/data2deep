@@ -15,6 +15,7 @@
   - [앙상블 기법 - 랜덤 포레스트(배깅 방식)](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/random_forest.ipynb)
   - [GBM(Gradient Boosting Machine)](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/Gradient_Boosting_Machine.ipynb)
   - [XGBoost(eXtra Gradient Boosting)](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/eXtra_Gradient_Boost.ipynb)
+  - [lightGBM](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/Light_GBM.ipynb)
 - [회귀]()
 - [차원축소]()
 - [군집화]()
