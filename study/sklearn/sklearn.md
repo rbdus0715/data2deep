@@ -13,6 +13,7 @@
   - [결정 트리](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/decision_tree.ipynb)
   - [앙상블 기법 - 보팅 방식](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/ensemble_learning.ipynb)
   - [앙상블 기법 - 랜덤 포레스트(배깅 방식)](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/random_forest.ipynb)
+  - [GBM(Gradient Boosting Machine)](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/Gradient_Boosting_Machine.ipynb)
 - [회귀]()
 - [차원축소]()
 - [군집화]()
