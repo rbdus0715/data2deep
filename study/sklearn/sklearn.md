@@ -20,7 +20,7 @@
   - [신용카드 사기 검출](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/creditcard_fraud.ipynb)
 - 회귀
   - [단순 선형 회귀, 경사 하강법](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/regression.ipynb)
-  - [LinearRegression - 보스턴 주택 가격 예측]()
+  - [LinearRegression - 보스턴 주택 가격 예측](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/boston.ipynb)
   - [다항 회귀와 과(대)적합/과소적합]()
   - [규제 선형 모델]()
   - [로지스틱 회귀]()
