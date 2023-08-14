@@ -7,6 +7,7 @@
   - [utils.py](https://github.com/rbdus0715/Machine-Learning/blob/main/team-note/utils.py)
 
 # kaggle
+- [my profile](https://www.kaggle.com/tkaska)
 - [solutions](https://farid.one/kaggle-solutions/)
 
 # deep learning
