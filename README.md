@@ -3,6 +3,7 @@
 
 # team-note
 - [team-note README](https://github.com/rbdus0715/Machine-Learning/blob/main/team-note/team-note.md)
+  - [evaluation.py](https://github.com/rbdus0715/Machine-Learning/blob/main/team-note/evaluation.py)
 
 # kaggle
 - [solutions](https://farid.one/kaggle-solutions/)
