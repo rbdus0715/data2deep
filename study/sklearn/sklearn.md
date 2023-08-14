@@ -18,6 +18,7 @@
   - [lightGBM](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/Light_GBM.ipynb)
   - [산탄데르 고객 만족도 예측](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/santander_customer_satisfaction.ipynb)
   - [신용카드 사기 검출](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/creditcard_fraud.ipynb)
+  - [스태킹 앙상블 - hard](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/stacking_ensemble.ipynb)
 - 회귀
   - [단순 선형 회귀, 경사 하강법](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/regression.ipynb)
   - [LinearRegression - 보스턴 주택 가격 예측](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/boston.ipynb)
