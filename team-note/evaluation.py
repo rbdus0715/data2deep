@@ -30,6 +30,15 @@ def get_clf_eval(y_test, pred):
 
 
 
+# 학습과 예측을 동시에
+def get_model_train_eval(model, X_train=None, X_test=None, y_train=None, y_test=None):
+    model.fit(X_train, y_train)
+    pred = model.predict(X_test)
+    pred_proba = model.predict_proba(X_test)
+    get_clf_eval(y_test, pred, pred_proba)
+
+
+
 def get_eval_by_threshold(y_test, pred_proba_positive, thresholds):
 
     '''
