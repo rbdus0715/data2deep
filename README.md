@@ -4,6 +4,7 @@
 # team-note
 - [team-note README](https://github.com/rbdus0715/Machine-Learning/blob/main/team-note/team-note.md)
   - [evaluation.py](https://github.com/rbdus0715/Machine-Learning/blob/main/team-note/evaluation.py)
+  - [utils.py](https://github.com/rbdus0715/Machine-Learning/blob/main/team-note/utils.py)
 
 # kaggle
 - [solutions](https://farid.one/kaggle-solutions/)
