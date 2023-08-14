@@ -17,6 +17,7 @@
   - [XGBoost(eXtra Gradient Boosting)](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/eXtra_Gradient_Boost.ipynb)
   - [lightGBM](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/Light_GBM.ipynb)
   - [산탄데르 고객 만족도 예측](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/santander_customer_satisfaction.ipynb)
+  - [신용카드 사기 검출](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/creditcard_fraud.ipynb)
 - [회귀]()
 - [차원축소]()
 - [군집화]()
