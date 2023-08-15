@@ -23,7 +23,7 @@
   - [단순 선형 회귀, 경사 하강법](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/regression.ipynb)
   - [LinearRegression - 보스턴 주택 가격 예측](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/boston.ipynb)
   - [다항 회귀와 과(대)적합/과소적합](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/polynomial_over_underfitting.ipynb)
-  - [규제 선형 모델]()
+  - [규제 선형 모델](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/regularization_regression.ipynb)
   - [로지스틱 회귀]()
   - [회귀 트리]()
   - [자전거 대여 수요 예측]()
