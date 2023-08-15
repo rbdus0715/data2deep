@@ -10,6 +10,7 @@
 - [my profile](https://www.kaggle.com/tkaska)
 - [solutions](https://farid.one/kaggle-solutions/)
 - [sol2](https://www.kaggle.com/code/sudalairajkumar/winning-solutions-of-kaggle-competitions)
+- [kaggle - tips](https://medium.com/@ebrahimhaqbhatti516/50-of-the-most-profound-kaggle-discussions-tips-tricks-resources-by-the-the-top-kaggle-6756596f635c)
 
 # deep learning
 books 
