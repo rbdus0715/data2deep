@@ -25,7 +25,7 @@
   - [다항 회귀와 과(대)적합/과소적합](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/polynomial_over_underfitting.ipynb)
   - [규제 선형 모델](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/regularization_regression.ipynb)
   - [로지스틱 회귀](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/logistic_regression.ipynb)
-  - [회귀 트리]()
+  - [회귀 트리](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/regression_tree.ipynb)
   - [자전거 대여 수요 예측]()
   - [주택 가격 예측 - 고급 회귀 기법]()
 - [차원축소]()
