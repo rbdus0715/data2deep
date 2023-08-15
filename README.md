@@ -9,6 +9,7 @@
 # kaggle
 - [my profile](https://www.kaggle.com/tkaska)
 - [solutions](https://farid.one/kaggle-solutions/)
+- [sol2](https://www.kaggle.com/code/sudalairajkumar/winning-solutions-of-kaggle-competitions)
 
 # deep learning
 books 
