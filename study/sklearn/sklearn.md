@@ -29,6 +29,7 @@
   - [자전거 대여 수요 예측](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/bike_sharing_demand.ipynb)
   - [주택 가격 예측 - 고급 회귀 기법]()
 - [차원축소]()
+  - [PCA](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/PCA.ipynb)
 - [군집화]()
 - [텍스트 분석]()
 - [추천 시스템]()
