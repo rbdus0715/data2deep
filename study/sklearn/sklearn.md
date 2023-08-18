@@ -28,8 +28,9 @@
   - [회귀 트리](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/regression_tree.ipynb)
   - [자전거 대여 수요 예측](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/bike_sharing_demand.ipynb)
   - [주택 가격 예측 - 고급 회귀 기법]()
-- [차원축소]()
+- 차원축소
   - [PCA](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/PCA.ipynb)
-- [군집화]()
+- 군집화
+  - [k-평균 군집화](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/clustering.ipynb)
 - [텍스트 분석]()
 - [추천 시스템]()
