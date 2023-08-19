@@ -30,6 +30,7 @@
   - [주택 가격 예측 - 고급 회귀 기법]()
 - 차원축소
   - [PCA](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/PCA.ipynb)
+  - [LDA](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/LDA.ipynb)
 - 군집화
   - [k-평균 군집화](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/clustering.ipynb)
 - [텍스트 분석]()
