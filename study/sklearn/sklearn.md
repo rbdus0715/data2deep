@@ -36,5 +36,6 @@
 - 군집화
   - [k-평균 군집화](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/clustering.ipynb)
   - [군집 평가](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/cluster_evaluation.ipynb)
+  - [평균 이동](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/mean_shift.ipynb)
 - [텍스트 분석]()
 - [추천 시스템]()
