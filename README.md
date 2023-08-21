@@ -1,4 +1,4 @@
-# study
+# learn
 - [study_README](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/sklearn.md)
 
 # team-note
