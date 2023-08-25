@@ -1,6 +1,6 @@
-## CO2 배출량 예측하기
+# CO2 배출량 예측하기
 
-### 데이터 분석 단계
+## 데이터 분석 단계
 
 
 **(1) 통계 요약을 통해서 데이터에 대한 전체적인 감을 잡는다. 이때 최대 최소에 대한 정보를 정리해두기!**
@@ -70,6 +70,13 @@ def top_20_corr(df, target_name):
 top_20_corr(train, 'emission')
 ```
 
+## 모델링 단계
+**(1) 시드값 설정**
+```python
+SEED = 2023
+random.seed(SEED)
+np.random.seed(SEED)
+```
 
 
 
