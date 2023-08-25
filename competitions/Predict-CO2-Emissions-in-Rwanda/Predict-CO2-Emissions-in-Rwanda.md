@@ -58,7 +58,17 @@ sns.countplot(x='col1', data=df)
 ```
 
 **(6) 타겟 데이터와 가장 상관관계가 큰 피처 Top 20 시각화**
+```python
+# 타겟 데이터와 가장 상관관계가 큰 피처 Top 20
+def top_20_corr(df, target_name):
+    top20_corrs = abs(df.corr()[target_name]).sort_values(ascending=False).head(20)
+    corr = train[list(top20_corrs.index)].corr()
+    plt.figure(figsize=(13, 8))
+    sns.heatmap(corr, cmap='RdBu', annot=True)
 
+# 예시 사용
+top_20_corr(train, 'emission')
+```
 
 
 
