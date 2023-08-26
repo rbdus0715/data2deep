@@ -80,7 +80,7 @@ np.random.seed(SEED)
 
 ## 추가적으로 도움될만한 것들
 **군집화**
-- k-mean 군집화
+- [k-mean 군집화](https://github.com/rbdus0715/Machine-Learning/blob/main/competitions/Predict-CO2-Emissions-in-Rwanda/%EA%B5%B0%EC%A7%91%ED%99%94%EB%A1%9C_%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C.ipynb)
 
 
 
