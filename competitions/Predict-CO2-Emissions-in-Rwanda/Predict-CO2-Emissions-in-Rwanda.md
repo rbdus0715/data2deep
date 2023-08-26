@@ -78,8 +78,9 @@ random.seed(SEED)
 np.random.seed(SEED)
 ```
 
-
-
+## 추가적으로 도움될만한 것들
+**군집화**
+- k-mean 군집화
 
 
 
