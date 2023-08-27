@@ -82,8 +82,14 @@ np.random.seed(SEED)
 **군집화**
 - [k-mean 군집화](https://github.com/rbdus0715/Machine-Learning/blob/main/competitions/Predict-CO2-Emissions-in-Rwanda/%EA%B5%B0%EC%A7%91%ED%99%94%EB%A1%9C_%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C.ipynb)
 
-
-
+**haversine : 둥근 지구에서 직선거리를 평면으로 계산**
+- pip install haversine
+```python
+from haversine import haversine
+Seoul = (37.541, 126.986)
+Toronto = (43.65, -79.38)
+haversine(Seoul, Toronto, unit='km') # 거리 계산
+```
 
 
 
