@@ -114,5 +114,10 @@ print(type(currdate)) 	# [class 'datetime.datetime']
 - 앞의 두 함수를 묶어서 한 번에 df.ffill().bfill()로 사용하기도 함
 - [자세한 설명](https://songseungwon.tistory.com/81)
 
-
-
+**(3) f-String**
+- f-string 만드는 법 : 문자열 앞에 f 또는 F 붙여주기
+- 여러 기능
+  - 변수 치환 : f"{x} + {y}는 {x+y}입니다."
+  - 함수 호출 : f"{word}는 {len(word)}글자 입니다."
+  - 표현식, 객체 등등...
+- [자세한 설명](https://www.daleseo.com/python-f-strings/)
