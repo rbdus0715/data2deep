@@ -79,10 +79,10 @@ np.random.seed(SEED)
 ```
 
 ## 추가적으로 도움될만한 것들
-**군집화**
+**(1) 군집화**
 - [k-mean 군집화](https://github.com/rbdus0715/Machine-Learning/blob/main/competitions/Predict-CO2-Emissions-in-Rwanda/%EA%B5%B0%EC%A7%91%ED%99%94%EB%A1%9C_%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C.ipynb)
 
-**haversine : 둥근 지구에서 직선거리를 평면으로 계산**
+**(2) haversine : 둥근 지구에서 직선거리를 평면으로 계산**
 - pip install haversine
 ```python
 from haversine import haversine
@@ -92,6 +92,21 @@ haversine(Seoul, Toronto, unit='km') # 거리 계산
 ```
 
 
+
+## 새롭게 알게된 정보
+**(1) python으로 날짜 다룰 때**
+- strftime : 날짜와 시간을 문자열로 출력
+```python
+import datetime
+datetime = now.strftime('%Y-%m-%d %H:%M:%S')
+print(datetime)  # 2021-04-08 21:28:20
+```
+- strptime : 날짜와 시간 형식의 문자열을 datetime으로 변환
+```python
+str_datetime = '2021-04-08 21:31:48'
+currdate = datetime.datetime.strptime(str_datetime, '%Y-%m-%d %H:%M:%S')
+print(type(currdate)) 	# [class 'datetime.datetime']
+```
 
 
 
