@@ -111,6 +111,7 @@ print(type(currdate)) 	# [class 'datetime.datetime']
 **(2) 결측치 새로운 값으로 대체할 때**
 - df.ffill() : null값을 새로운 값으로 대체할 때 바로 앞의 데이터를 참조 = df.fillna(method='ffill')
 - df.bfill() : 바로 뒤의 데이터를 참조 = df.fillna(method='bfill')
+- 앞의 두 함수를 묶어서 한 번에 df.ffill().bfill()로 사용하기도 함
 - [자세한 설명](https://songseungwon.tistory.com/81)
 
 
