@@ -7,6 +7,7 @@
   - [utils.py](https://github.com/rbdus0715/Machine-Learning/blob/main/team-note/utils.py)
 
 # kaggle
+- **[competitions](https://github.com/rbdus0715/Machine-Learning/blob/main/competitions/competitions_README.md)**
 - [my profile](https://www.kaggle.com/tkaska)
 - [solutions](https://farid.one/kaggle-solutions/)
 - [sol2](https://www.kaggle.com/code/sudalairajkumar/winning-solutions-of-kaggle-competitions)
