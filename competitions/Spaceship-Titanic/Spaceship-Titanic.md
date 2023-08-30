@@ -1,6 +1,7 @@
 # Predict which passengers are transported to an alternate dimension
 
 ## 데이터 분석
+- [EDA](https://github.com/rbdus0715/Machine-Learning/blob/main/competitions/Spaceship-Titanic/EDA.ipynb)
 - 데이터셋 설명 : 타이타닉 우주선의 충돌로 다른 차원으로 갔는지 예측
   - PassengerId
   - HomePlanet : 출발지
