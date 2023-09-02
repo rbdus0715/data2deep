@@ -12,6 +12,8 @@
 
 - **null**
     - null 값 확인하기 data.info()
+    - data.isnull().sum()
+    - seaborn.heatmap(data.isnull())
 
 - **시각화**
     - 지리적 위치의 시각화 : geopandas
