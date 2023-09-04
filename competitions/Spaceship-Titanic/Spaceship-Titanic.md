@@ -33,3 +33,5 @@
   - PassengerId에는 꽤 다양한 정보가 들어있다.
     - PassengerId - A unique Id for each passenger. Each Id takes the form gggg_pp where gggg indicates a group the passenger is travelling with and pp is their number within the group. People in a group are often family members, but not always.
   - 이를 통해서 좌석, VIP 등의 null 값을 실제와 거의 비슷하게 대체할 수 있다.
+- 나이
+  - 다른 피처들과의 상관관계를 이용
