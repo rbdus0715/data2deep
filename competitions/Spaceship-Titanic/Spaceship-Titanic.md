@@ -23,3 +23,13 @@
 - **여기에서 사용한 방법**
   - VIP는 객실 내의 서비스를 많이 이용할 것이므로 RoomService, FoodCourt, ShoppingMall, Spa, VRDeck 를 정렬해서 높은 순서대로 VIP = True로 함
   - 8300개 중의 대략 200개 밖에 없어 더 티도 나지 않고 효과적일 것 같다.
+
+## 생각을 해보면 되는데...
+- 냉동수면과 서비스의 관계
+  - 냉동수면을 취한 사람들은 객실 안의 서비스를 사용하지 않을 것이다.
+  - 거꾸로 서비스를 0원으로 내지 않은 사람들은 냉동수면을 취한 사람들임을 추측해볼 수 있다. (이것은 확실하지는 않지만 어느정도 일리가 있는 주장이다.)
+- 좌석 (Cabin)
+  - null값을 찾을 때 꼭 그 칼럼 안에서만 하지 말고, 다른 칼럼에서 흰트를 얻을 수 있나 생각해본다.
+  - PassengerId에는 꽤 다양한 정보가 들어있다.
+    - PassengerId - A unique Id for each passenger. Each Id takes the form gggg_pp where gggg indicates a group the passenger is travelling with and pp is their number within the group. People in a group are often family members, but not always.
+  - 이를 통해서 좌석, VIP 등의 null 값을 실제와 거의 비슷하게 대체할 수 있다.
