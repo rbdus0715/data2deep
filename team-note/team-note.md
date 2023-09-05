@@ -14,6 +14,7 @@
     - null 값 확인하기 data.info()
     - data.isnull().sum()
     - seaborn.heatmap(data.isnull())
+    - 널값 다루는 팁 [space titanic example](https://github.com/rbdus0715/Machine-Learning/blob/main/competitions/Spaceship-Titanic/Spaceship-Titanic.md)
 
 - **시각화**
     - 지리적 위치의 시각화 : geopandas
