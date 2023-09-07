@@ -30,8 +30,13 @@
   - 거꾸로 서비스를 0원으로 내지 않은 사람들은 냉동수면을 취한 사람들임을 추측해볼 수 있다. (이것은 확실하지는 않지만 어느정도 일리가 있는 주장이다.)
 - 좌석 (Cabin)
   - null값을 찾을 때 꼭 그 칼럼 안에서만 하지 말고, 다른 칼럼에서 흰트를 얻을 수 있나 생각해본다.
-  - PassengerId에는 꽤 다양한 정보가 들어있다.
+  - PassengerId에는 유용한 정보가 들어있다. (Group / Number)
     - PassengerId - A unique Id for each passenger. Each Id takes the form gggg_pp where gggg indicates a group the passenger is travelling with and pp is their number within the group. People in a group are often family members, but not always.
   - 이를 통해서 좌석, VIP 등의 null 값을 실제와 거의 비슷하게 대체할 수 있다.
+```python
+# Room 번호를 기준으로 다른 피처들에 대해 그룹화를 한다.
+guide_VIP = df.loc[:, ['Room', 'VIP']].dropna().drop_duplicates('Room') # Room 번호에 대해서 중복 제거
+df=pd.merge(df, guide_VIP,how="left",on='Room',suffixes=('','_y'))
+```
 - 나이
   - 다른 피처들과의 상관관계를 이용
