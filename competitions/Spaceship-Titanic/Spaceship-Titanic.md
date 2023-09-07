@@ -35,7 +35,8 @@
   - 이를 통해서 좌석, VIP 등의 null 값을 실제와 거의 비슷하게 대체할 수 있다.
 ```python
 # Room 번호를 기준으로 다른 피처들에 대해 그룹화를 한다.
-guide_VIP = df.loc[:, ['Room', 'VIP']].dropna().drop_duplicates('Room') # Room 번호에 대해서 중복 제거
+# Room 번호에 대해서 중복 제거
+guide_VIP = df.loc[:, ['Room', 'VIP']].dropna().drop_duplicates('Room')
 df=pd.merge(df, guide_VIP,how="left",on='Room',suffixes=('','_y'))
 ```
 - 나이
