@@ -29,6 +29,7 @@ deep learning
 - [Implementing math in deep learning papers into efficient PyTorch code](https://towardsdatascience.com/implementing-math-in-deep-learning-papers-into-efficient-pytorch-code-simclr-contrastive-loss-be94e1f63473)
 - [deep learning paper reading youtube](https://www.youtube.com/channel/UCDULrK2OJsiDhFroa2Aj_LQ)
 - [math for Machine-Learning](https://mml-book.github.io/book/mml-book.pdf)
+- [blog](https://machinelearningmastery.com/blog)
 
 deep learning book
 - [Ian Goodfellow et. al. <Deep Learning>](https://www.deeplearningbook.org/)
