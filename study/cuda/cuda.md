@@ -1,5 +1,5 @@
 # CUDA with colab setting
-```cpp
+```bash
 !nvcc --version
 !pip install git+https://github.com/andreinechaev/nvcc4jupyter.git
 %load_ext nvcc_plugin
