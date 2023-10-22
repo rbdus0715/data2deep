@@ -47,3 +47,45 @@ print(grid_dtree.best_score_) # 최고 점수
 estimator = grid_dtree.best_estimator_ # 최종 모델
 pred = estimator.predict(X_test) # 최종 모델로 예측
 print(accuracy_score(y_test, pred))
+
+
+# 4. 데이터 인코딩
+## 레이블 인코딩
+items = ['a', 'b', 'c']
+from sklearn.preprocessing import LabelEncoder
+encoder = LabelEncoder()
+encoder.fit(items)
+labels = encoder.transform(items)
+print(encoder.classes_, labels,encoder.inverse_transform([0, 1, 2]))
+## 원핫 인코딩
+from sklearn.preprocessing import OneHotEncoder
+encoder = LabelEncoder()
+encoder.fit(items)
+labels = encoder.transform(items)
+labels = labels.reshape(-1 ,1) # 2차원 데이터로 변환
+oh_encoder = OneHotEncoder()
+oh_encoder.fit(labels)
+oh_labels = oh_encoder.transform(labels)
+print(oh_labels.toarray())
+## 원핫 인코딩 쉽게하기
+import pandasas pd
+df =pd.DataFrame({'items':['a', 'b', 'c'])
+pd.get_dummies(df)
+## 피처 스케일링과 정규화
+### - 표준화 : 평균이 0이고 분산이 1일 분포로 변환
+from sklearn.datasets import load_iris
+import pandas as pd
+iris = load_iris()
+iris_data = iris.data
+iris_df =pd.DataFrame(data=iris_data, columns=iris.feature_names)
+from sklearn.preprocessing import StandardScaler
+scaler = StandardScaler()
+scaler.fit(iris_df)
+iris_scaled = scaler.transform(iris_df)
+iris_df_sclaed = pd.DataFrame(data=iris_scaled, columns=iris.feature_names)
+### - 정규화 : 데이터를 일정 범위내의 수치로 변환
+from sklearn.preprocessing import MinMaxScaler
+scaler = MinMaxScaler()
+scaler.fit(iris_df)
+iris_scaled = scaler.transform(iris_df)
+iris_df_scaled = pd.DataFrame(data=iris_scaled, columns=iris.feature_names)
