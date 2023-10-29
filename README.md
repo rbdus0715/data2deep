@@ -14,11 +14,8 @@
 - [feature engineering for machine learning](https://www.repath.in/gallery/feature_engineering_for_machine_learning.pdf)
 
 딥러닝 자료들
-- [ISLP](https://hastie.su.domains/ISLP/ISLP_website.pdf)
-  - [solution](https://botlnec.github.io/islp/)
-- [bishop book](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
-  - [solution](https://tensorflowkorea.files.wordpress.com/2018/11/prml-web-sol-2009-09-08.pdf)
-  - [errata](https://tensorflowkorea.files.wordpress.com/2018/11/prml-errata-1st-20110921.pdf)
+- [ISLP](https://hastie.su.domains/ISLP/ISLP_website.pdf) | [solution](https://botlnec.github.io/islp/)
+- [bishop book](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) | [solution](https://tensorflowkorea.files.wordpress.com/2018/11/prml-web-sol-2009-09-08.pdf) | [errata](https://tensorflowkorea.files.wordpress.com/2018/11/prml-errata-1st-20110921.pdf)
 - [murpy book](http://noiselab.ucsd.edu/ECE228/Murphy_Machine_Learning.pdf)
 - [implement1](https://github.com/bharathgs/Awesome-pytorch-list)
 - [implement2](https://github.com/labmlai/annotated_deep_learning_paper_implementations)
