@@ -2,15 +2,10 @@
 - [study_README](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/sklearn.md)
 
 재사용 코드
-- [team-note README](https://github.com/rbdus0715/Machine-Learning/blob/main/team-note/team-note.md)
-  - [evaluation.py](https://github.com/rbdus0715/Machine-Learning/blob/main/team-note/evaluation.py)
-  - [utils.py](https://github.com/rbdus0715/Machine-Learning/blob/main/team-note/utils.py)
 
 캐글 대회 정리
 - [competitions](https://github.com/rbdus0715/Machine-Learning/blob/main/competitions/competitions_README.md)
-- [solutions](https://farid.one/kaggle-solutions/)
-- [sol2](https://www.kaggle.com/code/sudalairajkumar/winning-solutions-of-kaggle-competitions)
-- [kaggle - tips](https://medium.com/@ebrahimhaqbhatti516/50-of-the-most-profound-kaggle-discussions-tips-tricks-resources-by-the-the-top-kaggle-6756596f635c)
+- [solutions 1](https://farid.one/kaggle-solutions/) | [solutions 2](https://www.kaggle.com/code/sudalairajkumar/winning-solutions-of-kaggle-competitions)
 - [feature engineering for machine learning](https://www.repath.in/gallery/feature_engineering_for_machine_learning.pdf)
 
 딥러닝 자료들
