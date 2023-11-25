@@ -1,8 +1,6 @@
 배운 것들
 - [study_README](https://github.com/rbdus0715/Machine-Learning/blob/main/study/sklearn/sklearn.md)
 
-재사용 코드
-
 캐글 대회 정리
 - [competitions](https://github.com/rbdus0715/Machine-Learning/blob/main/competitions/competitions_README.md)
 - [solutions 1](https://farid.one/kaggle-solutions/) | [solutions 2](https://www.kaggle.com/code/sudalairajkumar/winning-solutions-of-kaggle-competitions)
@@ -23,5 +21,5 @@
 - [ML youtube course](https://github.com/dair-ai/ML-YouTube-Courses)
 - [선형대수학](https://ko.khanacademy.org/math/linear-algebra)
 
-스크랩
+글
 - [수학자는 어떻게 인공지능을 발전시키는가?](https://brunch.co.kr/@kakao-it/244)
