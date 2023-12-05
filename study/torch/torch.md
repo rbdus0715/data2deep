@@ -11,13 +11,13 @@
 # note
 - Conv2d 이후 이미지 크기 = $(W-K+2P)/S + 1$ (W=이전 이미지 사이즈, K=커널 사이즈, S=스트라이드, P=패딩)
 - Conv2d 이후에도 이미지 크기가 같게하는 조건
-  - nn.Conv2d(in_channels, out_channels, kernel_size=3, padding=1, stride=1) # stride는 1이 디폴트
+  - nn.Conv2d(in_channels, out_channels, **kernel_size=3, padding=1, stride=1**) # stride는 1이 디폴트
   - 증명식 => $(X-3+2)/1+1 = X$
 - upsampling에 사용되는 [Transposed Convolution](https://www.youtube.com/watch?v=U3C8l6w-wn0)
   - nn.ConvTranspose2d()
   - 이후의 이미지 크기 = $S(W-1)+K-2P$
 - ConvTranspose2d 이후에 이미지의 크기가(한 변의 길이가) 두 배가 되게하는 조건
-  - nn.Conv2d(in_channels, out_channels, kernel_size=2, stride=2)
+  - nn.Conv2d(in_channels, out_channels, **kernel_size=2, stride=2**)
   - 증명식 => $2(X-1)+2-0=2X$
 
 # error
