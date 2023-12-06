@@ -22,7 +22,7 @@
   - 이후의 이미지 크기 = $S(W-1)+K-2P$
 - ConvTranspose2d 이후에도 이미지 크기가 같게하는 조건
   - nn.ConvTranspose2d(in_channels, out_channels, **kernel_size=3, stride=1, padding=1**)
-  - 증명식 => $1(W-1)+3-2=W$
+  - 증명식 => $1(X-1)+3-2=X$
 - ConvTranspose2d 이후에 이미지의 크기가(한 변의 길이가) 두 배가 되게하는 조건
   - nn.Conv2d(in, out, **kernel_size=2, stride=2**)
   - 증명식 => $2(X-1)+2-0=2X$
