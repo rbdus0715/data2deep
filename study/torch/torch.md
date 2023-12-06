@@ -15,14 +15,18 @@
   - nn.Conv2d(in_channels, out_channels, **kernel_size=3, padding=1, stride=1**) # stride는 1이 디폴트
   - 증명식 => $(X-3+2)/1+1 = X$
 - Conv2d 이후에 이미지 크기가 1/2이 되는 조건
-  - nn.Conv2d(in_channels, out_channels, **kernel_size=3, stride2, padding=1**)
+  - nn.Conv2d(in_channels, out_channels, **kernel_size=3, stride=2, padding=1**)
   - 증명식 => $(X-3+2)/2+1=\lfloor{X/2+1/2}\rfloor=X/2$
 - upsampling에 사용되는 [Transposed Convolution](https://www.youtube.com/watch?v=U3C8l6w-wn0)
   - nn.ConvTranspose2d()
   - 이후의 이미지 크기 = $S(W-1)+K-2P$
+- ConvTranspose2d 이후에도 이미지 크기가 같게하는 조건
+  - nn.ConvTranspose2d(in_channels, out_channels, **kernel_size=3, stride=1, padding=1**)
+  - 증명식 => $1(W-1)+3-2=W$
 - ConvTranspose2d 이후에 이미지의 크기가(한 변의 길이가) 두 배가 되게하는 조건
-  - nn.Conv2d(in_channels, out_channels, **kernel_size=2, stride=2**)
+  - nn.Conv2d(in, out, **kernel_size=2, stride=2**)
   - 증명식 => $2(X-1)+2-0=2X$
+
 
 # error
 - *RuntimeError: stack expects each tensor to be equal size, but got [3, 128, 128] at entry 0 and [1, 128, 128] at entry 20*
