@@ -16,7 +16,7 @@
   - 증명식 => $(X-3+2)/1+1 = X$
 - Conv2d 이후에 이미지 크기가 1/2이 되는 조건
   - nn.Conv2d(in_channels, out_channels, **kernel_size=3, stride2, padding=1**)
-  - 증명식 => $(X-3+2)/2+1=\lfloor{x/2+1/2}\rfloor=x/2$
+  - 증명식 => $(X-3+2)/2+1=\lfloor{X/2+1/2}\rfloor=X/2$
 - upsampling에 사용되는 [Transposed Convolution](https://www.youtube.com/watch?v=U3C8l6w-wn0)
   - nn.ConvTranspose2d()
   - 이후의 이미지 크기 = $S(W-1)+K-2P$
