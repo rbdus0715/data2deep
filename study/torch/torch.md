@@ -42,6 +42,10 @@
   def lab2rgb(lab):
     return cv2.cvtColor(lab, cv2.COLOR_LAB2RGB)
   ```
+  - LAB 이미지의 shape은 (height, width, channels)인데, pytorch에서 사용하기 좋은 (C, H, W)로 바꾼다.
+  ```python
+  lab.transpose((2, 0, 1)).astype(np.float32)
+  ```
 # error
 - *RuntimeError: stack expects each tensor to be equal size, but got [3, 128, 128] at entry 0 and [1, 128, 128] at entry 20*
   - 데이터를 가지고 훈련하기 전, 데이터의 타입, 형식이 무엇인지를 알아야 할 필요가 있다.
