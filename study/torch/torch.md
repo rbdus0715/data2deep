@@ -11,6 +11,7 @@
 - [auto_coloring](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/7.automatic_coloring.ipynb)
 
 # note
+*코드*
 - Conv2d 이후 이미지 크기 = $\lfloor{(W-K+2P)/S}\rfloor+ 1$ (W=이전 이미지 사이즈, K=커널 사이즈, S=스트라이드, P=패딩)
 - Conv2d 이후에도 이미지 크기가 같게하는 조건
   - nn.Conv2d(in_channels, out_channels, **kernel_size=3, padding=1, stride=1**) # stride는 1이 디폴트
@@ -28,7 +29,19 @@
   - nn.Conv2d(in, out, **kernel_size=2, stride=2**)
   - 증명식 => $2(X-1)+2-0=2X$
 
-
+*이론*
+- LAB: 각각 밝기, 나머지 AB는 컬러 축
+  ```python
+  import cv2
+  import numpy as np
+  from torch.utils.data.dataset import Dataset
+  
+  def rgb2lab(rgb):
+    return cv2.cvtColor(rgb, cv2.COLOR_RGB2LAB)
+  
+  def lab2rgb(lab):
+    return cv2.cvtColor(lab, cv2.COLOR_LAB2RGB)
+  ```
 # error
 - *RuntimeError: stack expects each tensor to be equal size, but got [3, 128, 128] at entry 0 and [1, 128, 128] at entry 20*
   - 데이터를 가지고 훈련하기 전, 데이터의 타입, 형식이 무엇인지를 알아야 할 필요가 있다.
