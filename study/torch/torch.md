@@ -30,7 +30,7 @@
   - 증명식 => $2(X-1)+2-0=2X$
 
 *이론*
-- LAB: 각각 밝기, 나머지 AB는 컬러 축
+- LAB: 각각 밝기, 나머지 AB는 컬러 축 **(automatic_coloring에서 사용됨)**
   ```python
   import cv2
   import numpy as np
@@ -46,6 +46,13 @@
   ```python
   lab.transpose((2, 0, 1)).astype(np.float32)
   ```
+- 자동채색 모델을 학습할 때 LAB 이미지가 사용되는데, 과정은 다음과 같다.
+  1. img(rgb) -> lab 변환
+  2. L, AB로 분리
+  3. input: L -> output: AB
+  4. L과 AB를 concatenation
+  5. lab -> rgb 이미지 변환
+  6. 출력해서 확인해보기
 # error
 - *RuntimeError: stack expects each tensor to be equal size, but got [3, 128, 128] at entry 0 and [1, 128, 128] at entry 20*
   - 데이터를 가지고 훈련하기 전, 데이터의 타입, 형식이 무엇인지를 알아야 할 필요가 있다.
