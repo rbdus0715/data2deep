@@ -46,7 +46,7 @@
   ```python
   lab.transpose((2, 0, 1)).astype(np.float32)
   ```
-- 자동채색 모델을 학습할 때 LAB 이미지가 사용되는데, 과정은 다음과 같다.
+- 자동채색 모델([let there be color](http://iizuka.cs.tsukuba.ac.jp/projects/colorization/data/colorization_sig2016.pdf))을 학습할 때 LAB 이미지가 사용되는데, 과정은 다음과 같다.
   1. img(rgb) -> lab 변환
   2. L, AB로 분리
   3. input: L -> output: AB
