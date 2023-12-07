@@ -8,6 +8,7 @@
 - [Unet-imageSegmentation](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/5.unet_segmentation.ipynb)
 - [autoEncoder-1D](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/6.auto_encoder_2.ipynb)
 - [autoEncoder-2D](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/6.auto_encoder.ipynb)
+- [auto_coloring](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/7.automatic_coloring.ipynb)
 
 # note
 - Conv2d 이후 이미지 크기 = $\lfloor{(W-K+2P)/S}\rfloor+ 1$ (W=이전 이미지 사이즈, K=커널 사이즈, S=스트라이드, P=패딩)
