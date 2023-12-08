@@ -39,6 +39,7 @@
     # 패딩 계산
     padding = ((input_size[1] - 1) * (stride - 1) + kernel_size[0] - input_size[1] + 1) // 2
     ```
+    
 
 *이론*
 - LAB: 각각 밝기, 나머지 AB는 컬러 축 **(automatic_coloring에서 사용됨)**
