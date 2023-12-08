@@ -28,18 +28,7 @@
   - 증명식 => $1(X-1)+3-2=X$
 - ConvTranspose2d 이후에 이미지의 크기가(한 변의 길이가) 두 배가 되게하는 조건
   - nn.Conv2d(in, out, **kernel_size=2, stride=2**)
-  - 증명식 => $2(X-1)+2-0=2X$
-- tensorflow의 padding="same"을 직접 구현하기
-  - 계산식: $\lfloor(H-1)*(S-1) + KH - H + 1\rfloor/2$
-  - 예시 코드
-    ```python
-    input_size = (64, 128, 128)
-    kernel_size = (3, 3)
-    stride = 2
-    # 패딩 계산
-    padding = ((input_size[1] - 1) * (stride - 1) + kernel_size[0] - input_size[1] + 1) // 2
-    ```
-    
+  - 증명식 => $2(X-1)+2-0=2X$    
 
 *이론*
 - LAB: 각각 밝기, 나머지 AB는 컬러 축 **(automatic_coloring에서 사용됨)**
