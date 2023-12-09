@@ -10,6 +10,7 @@
 - [autoEncoder-1D](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/6.auto_encoder_2.ipynb)
 - [autoEncoder-2D](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/6.auto_encoder.ipynb)
 - [auto_coloring](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/7.automatic_coloring.ipynb)
+- [lstm generator](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/8.lstm_generator.ipynb)
 
 # note
 *코드*
