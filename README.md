@@ -21,6 +21,7 @@
 - [Dive into Deep Learning](https://d2l.ai/)
 - [ML youtube course](https://github.com/dair-ai/ML-YouTube-Courses)
 - [선형대수학](https://ko.khanacademy.org/math/linear-algebra)
+- [facebook research - multimodal](https://github.com/facebookresearch/multimodal/blob/main/README.md)
 
 글
 - [수학자는 어떻게 인공지능을 발전시키는가?](https://brunch.co.kr/@kakao-it/244)
