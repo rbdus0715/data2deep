@@ -13,7 +13,7 @@
 - [lstm generator](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/8.lstm_generator.ipynb)
 
 # note
-*코드*
+*tmi*
 - Conv2d 이후 이미지 크기 = $\lfloor{(W-K+2P)/S}\rfloor+ 1$ (W=이전 이미지 사이즈, K=커널 사이즈, S=스트라이드, P=패딩)
 - Conv2d 이후에도 이미지 크기가 같게하는 조건
   - nn.Conv2d(in_channels, out_channels, **kernel_size=3, padding=1, stride=1**) # stride는 1이 디폴트
@@ -35,7 +35,7 @@
   - hidden_size: hidden state h의 개수
   - num_layers: (num_layers=1 기본) n개의 RNN을 쌓음 
 
-*이론*
+*tip*
 - LAB: 각각 밝기, 나머지 AB는 컬러 축 **(automatic_coloring에서 사용됨)**
   ```python
   import cv2
