@@ -30,7 +30,7 @@
 - ConvTranspose2d 이후에 이미지의 크기가(한 변의 길이가) 두 배가 되게하는 조건
   - nn.Conv2d(in, out, **kernel_size=2, stride=2**)
   - 증명식 => $2(X-1)+2-0=2X$
-- RNN 종류들 매개변수 이해
+- 시계열 신경망(RNN, LSTM, GRU) 매개변수 이해
   - input_size: 입력 X의 특징(features) 개수
   - hidden_size: hidden state h의 개수
   - num_layers: (num_layers=1 기본) n개의 RNN을 쌓음 
