@@ -59,6 +59,10 @@
   4. L과 AB를 concatenation
   5. lab -> rgb 이미지 변환
   6. 출력해서 확인해보기
+
+# paper-summary
+- efficientNet: autoML을 통해 최적화된 cnn 아키텍쳐 제안
+
 # error
 - *RuntimeError: stack expects each tensor to be equal size, but got [3, 128, 128] at entry 0 and [1, 128, 128] at entry 20*
   - 데이터를 가지고 훈련하기 전, 데이터의 타입, 형식이 무엇인지를 알아야 할 필요가 있다.
