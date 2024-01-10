@@ -12,6 +12,9 @@
 - [auto_coloring](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/7.automatic_coloring.ipynb)
 - [lstm generator](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/8.lstm_generator.ipynb)
 
+*vision*
+- [yoloV1](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/yolov1.ipynb)
+
 # note
 *tmi*
 - Conv2d 이후 이미지 크기 = $\lfloor{(W-K+2P)/S}\rfloor+ 1$ (W=이전 이미지 사이즈, K=커널 사이즈, S=스트라이드, P=패딩)
