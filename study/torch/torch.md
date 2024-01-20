@@ -15,6 +15,7 @@
 *vision*
 - [yoloV1](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/yolov1.ipynb)
 - [AlexNet](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/AlexNet.ipynb)
+- [vggNet](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/AlexNet.ipynb)
 
 # note
 *tmi*
