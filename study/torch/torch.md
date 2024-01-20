@@ -16,6 +16,7 @@
 - [yoloV1](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/yolov1.ipynb)
 - [AlexNet](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/AlexNet.ipynb)
 - [vggNet](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/vggnet.ipynb)
+- [transfer-learning](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/transfer_learning.ipynb)
 
 # note
 *tmi*
