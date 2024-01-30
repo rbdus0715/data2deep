@@ -18,6 +18,9 @@
 - [vggNet](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/vggnet.ipynb)
 - [transfer-learning](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/transfer_learning.ipynb)
 
+*semi-supervised learning*
+- [konwledge distillation](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/knowledge_distillation.ipynb)
+
 # note
 *tmi*
 - Conv2d 이후 이미지 크기 = $\lfloor{(W-K+2P)/S}\rfloor+ 1$ (W=이전 이미지 사이즈, K=커널 사이즈, S=스트라이드, P=패딩)
