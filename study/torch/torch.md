@@ -18,6 +18,7 @@
 - [vggNet](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/vggnet.ipynb)
 - [transfer-learning](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/transfer_learning.ipynb)
 - [Faster-rcnn](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/Faster_rcnn.ipynb)
+- [R-cnn](https://github.com/rbdus0715/Machine-Learning/tree/main/study/torch/rcnn_from_scratch)
 
 *semi-supervised learning*
 - [konwledge distillation](https://github.com/rbdus0715/Machine-Learning/blob/main/study/torch/knowledge_distillation.ipynb)
