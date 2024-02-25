@@ -8,7 +8,7 @@
 
 # 파일 실행 순서
 
-```python
+```
 # 데이터셋 구축
 python pascal_voc.py
 python pascal_voc_car.py
