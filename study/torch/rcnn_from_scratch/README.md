@@ -1,9 +1,9 @@
 # reference code and documents
-[github 링크](https://github.com/object-detection-algorithm/R-CNN/tree/master/py)
+[github link](https://github.com/object-detection-algorithm/R-CNN/tree/master/py)
 
-[DOCS](https://r-cnn.readthedocs.io/zh-cn/latest/)
+[docs](https://r-cnn.readthedocs.io/zh-cn/latest/)
 
-[VOC2007 torchvision DOCS](https://blog.zhujian.life/posts/5a56cd45.html)
+[VOC2007 torchvision docs](https://blog.zhujian.life/posts/5a56cd45.html)
 
 
 # execution
