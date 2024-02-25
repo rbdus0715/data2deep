@@ -71,7 +71,7 @@
   6. 출력해서 확인해보기
 
 # paper-summary
-- efficientNet: autoML을 통해 최적화된 cnn 아키텍쳐 제안
+[논문 정리](https://blog.naver.com/rbdus0715)
 
 # error
 - *RuntimeError: stack expects each tensor to be equal size, but got [3, 128, 128] at entry 0 and [1, 128, 128] at entry 20*
