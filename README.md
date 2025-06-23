@@ -16,6 +16,3 @@
 - [Get Started](./study/transformers/readme.md)  
 
 ---
-
-각 README는 예제 코드와 함께 실습하면서 이해한 내용을 포함하고 있습니다.  
-필요한 내용을 빠르게 참고하거나 복습할 수 있도록 구성했어요!
